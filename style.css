@@ -1,0 +1,93 @@
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   border: 1px solid #e7e7e7;
+   background-color: #f3f3f3;
+ }
+ 
+ li {
+   float: left;
+ }
+ 
+ li a {
+   display: block;
+   color: #666;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+ }
+ 
+ li a:hover:not(.active) {
+   background-color: #ddd;
+ }
+ 
+ li a.active {
+   color: white;
+   background-color: darkblue;
+ }
+
+ li a.lactive {
+   color: white;
+   background-color: darkblue;
+ }
+
+
+ /* Style the headings */
+ h1{
+    color:darkblue;
+    font-size: 35px;}
+
+h2{
+      color:darkblue;}
+      
+h3{
+   color:darkblue;}
+
+/* Style the header */
+header {
+   background-color: #666;
+   padding: 30px;
+   text-align: center;
+   font-size: 35px;
+   color: white;}
+ 
+ /* Container for flexboxes */
+ section {
+   display: -webkit-flex;
+   display: flex;}
+ 
+ /* Style the navigation menu */
+ nav {
+   -webkit-flex: 1;
+   -ms-flex: 1;
+   flex: 1;
+   background: #ccc;
+   padding: 20px;}
+ 
+ /* Style the list inside the menu */
+ nav ul {
+   list-style-type: none;
+   padding: 0;}
+ 
+ /* Style the content */
+ article {
+   -webkit-flex: 3;
+   -ms-flex: 3;
+   flex: 3;
+   background-color: #f1f1f1;
+   padding: 10px;}
+ 
+ /* Style the footer */
+ footer {
+   background-color: #777;
+   padding: 10px;
+   text-align: center;
+   color: white;}
+
+/* Style the h1 in the head */
+.headerStyling{
+   display: flex;
+   flex-direction: row;
+}
